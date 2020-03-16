@@ -24,7 +24,7 @@ bot.on('message', function (message) {
 	
 	else if(message.content === '!bot'){
 
-		var version ="v1.0" ; // c'est une variable
+		var version ="v1.1" ; // c'est une variable
 		
 		message.channel.send("Salut! Je suis un bot crée par NathXBAD et je suis actuellement en "+version+"!") // je passe la variable grace au +
 
@@ -64,7 +64,3 @@ bot.on('message', function (message) {
 
 
 })//fin de la function des message 
-
-
-
-
