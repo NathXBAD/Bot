@@ -46,12 +46,11 @@ bot.on('message', function (message) {
 	}
 	
 	else if(message.content === '!server') {
-		let server_name = (message.guild.name)
-		let server_size = (message.guild.members.server_size)
+		let server_name = message.guild.name
+		let server_size = message.guild.members.server_size
 		message.channel.send("Server :" + server_name + "\nPersonnes : " + server_size)
 		webhookGeto.send("```Je suis le bot général du server```")
 	}
-
 
 
 
@@ -59,7 +58,9 @@ bot.on('message', function (message) {
 		message.channel.send("```https://discord.gg/UdAfWPw```")
 	}
 	
-	
+    else if(message.content === '!rose') {
+		message.channel.send("```Elle est conne!!!```")
+	}
 
 
 
