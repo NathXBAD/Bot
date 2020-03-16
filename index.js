@@ -5,7 +5,7 @@ const webhookGeto = new Discord.WebhookClient('689054638116307086','uensk3nRGJjz
 bot.on('ready', function () {
     bot.user.setStatus('online')
 
-    bot.user.setActivity("Développe avec NathXBAD", { type: 'PLAYING'})
+    bot.user.setActivity("Tailler des crayons", { type: 'PLAYING'})
     console.log("Le Bot est en ligne sans problèmes au démarrage");
     
 
