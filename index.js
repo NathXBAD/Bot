@@ -49,8 +49,9 @@ bot.on('message', function (message) {
 		let server_name = message.guild.name
 		let server_size = message.guild.members.server_size
 		message.channel.send("Server :" + server_name + "\nPersonnes : " + server_size)
-	    webhookGeto.send("```Je suis le bot général du server```")
-	}
+	    webhookGeto.send("```Je suis le bot général du server```")}
+		
+	
 
     else if(message.content === '!invite') {
 		message.channel.send("```https://discord.gg/UdAfWPw```")
